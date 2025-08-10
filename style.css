@@ -181,7 +181,8 @@ a {
   padding: 64px 64px;
   background-color: #1f1f1f;
   margin-top: 64px;
-  border-radius: 8px;
+  border-radius: 12px 12px 24px 24px;
+  padding-bottom: 108px;
   border: 1px solid #1f1f1f;
 }
 
@@ -300,4 +301,240 @@ a {
 .card-imagee1 {
   overflow: hidden;
   padding-left: 24px;
+}
+
+.flexible-sec {
+  margin-top: 80px;
+}
+
+.firstcard {
+  padding: 24px;
+  background-color: #262626;
+  border: 1px solid #484848;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.section-cards {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.build-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.build-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.Build-body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 8px;
+  color: #a1a1a1;
+}
+
+.Trouble-shoot {
+  margin-top: 64px;
+}
+
+.trouble-header {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  color: white;
+}
+
+.trouble-body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+  color: #a1a1a1;
+}
+
+.trouble-card1 {
+  padding: 24px;
+  background-color: #262626;
+  border: 1px solid #484848;
+  border-radius: 8px;
+}
+
+.trouble-cards {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.platform-section {
+  margin-top: 64px;
+}
+
+.platform-header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  color: #131313;
+  margin-bottom: 16px;
+}
+
+.platform-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 12px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  border: 1px solid #e8e8e8;
+}
+
+.product-team {
+  padding: 8px 12px;
+  background-color: white;
+  color: #3e3e3e;
+  border-radius: 4px;
+}
+
+.devops,
+.Engineering {
+  color: #8d8d8d;
+}
+
+.check-header {
+  font-size: 16px;
+  font-weight: 400;
+  color: #494949;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.check-body {
+  font-size: 14px;
+  font-weight: 300;
+  color: #606060;
+  margin-bottom: 8px;
+}
+
+.check1 {
+  padding: 24px;
+  border: 1px solid #e7e7e7;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.checks-section {
+  display: flex;
+  flex: 1;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.quick-spin {
+  margin: 108px 0;
+}
+
+.quickspin-tit {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.leftcta {
+  background-color: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px 0px 0px 8px;
+  padding: 24px;
+  width: 100%;
+}
+
+.rightcta {
+  background-color: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 0px 8px 8px 0px;
+  padding: 24px;
+  width: 100%;
+}
+
+.finalcta {
+  display: flex;
+  margin-top: 24px;
+}
+
+.cta-header {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.cta-body {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.joincom {
+  margin: 64px 0;
+  background-color: #252525;
+  border-radius: 16px;
+  border: 1px solid #484848;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: start;
+}
+
+.joinhead {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.joinbuttons {
+  display: flex;
+  gap: 8px;
+}
+
+.slackbtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.gitbutton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #484848;
+  color: white;
 }
