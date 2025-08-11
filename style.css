@@ -1,8 +1,82 @@
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .Page-container {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
+  }
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Page-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .navigation {
+    margin-top: 16px;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+
+  .nav-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Hero-section {
+    flex-direction: column;
+    margin-top: 32px;
+    gap: 32px;
+  }
+
+  .hero-header {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .hero-body {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 32px;
+    align-items: center;
   }
 }
 
@@ -137,10 +211,11 @@ a {
 .section-title {
   padding: 8px 12px;
   width: 160px;
-  background-color: white;
+  /* background-color: white; */
   border: 1px solid #e8e8e8;
   text-align: center;
   border-radius: 90px;
+  color: #484848;
 }
 
 .outter {
@@ -184,6 +259,19 @@ a {
   border-radius: 12px 12px 24px 24px;
   padding-bottom: 108px;
   border: 1px solid #1f1f1f;
+}
+
+.complexity-section-title {
+  font-size: 14px;
+  color: #131313;
+  font-weight: 400;
+  background-color: transparent;
+  padding: 12px 12px;
+  margin-bottom: 16px;
+  width: 120px;
+  border-radius: 90px;
+  border: 1px solid #484848;
+  text-align: center;
 }
 
 .section-title {
@@ -505,18 +593,23 @@ a {
   flex-direction: column;
   align-items: left;
   justify-content: start;
+  flex-direction: column;
+  align-content: center;
 }
 
 .joinhead {
   font-size: 40px;
   font-weight: 400;
   line-height: 24px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   color: white;
+  text-align: center;
+  padding-bottom: 16px;
 }
 
 .joinbuttons {
   display: flex;
+  justify-content: center;
   gap: 8px;
 }
 
@@ -537,4 +630,20 @@ a {
   border-radius: 8px;
   border: 1px solid #484848;
   color: white;
+}
+
+.joinright {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  width: 100%;
+}
+
+.rightimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
